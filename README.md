@@ -32,6 +32,7 @@
 	 - 상관계수 분석으로 학습에 불필요한 피쳐 삭제
 	 - 두가지 분석으로 삭제한 후 score와 로스를 하나하나 비교, 단순 계수를 바탕으로 삭제한 것이 아님
 	 - 삭제해야 좋다 나오는 계수여도 학습에서는 다르게 활용될 수 있음
+  
 ![image](https://github.com/DaKu00/price_prediction/assets/87750521/0c36c343-c003-450d-af11-248e5daa2184)
 
   
@@ -43,10 +44,11 @@
  - 하나의 선형적 그래프로 예측 성능에 제약이 크다는 것으로 판단
 	 - 폴리노미얼(다항회귀)이라는 방법을 적용
 	 - 폴리노미얼을 적용하고 그리드서치까지 마치니 r2score 0.9를 넘김
+ 
 ![image](https://github.com/DaKu00/price_prediction/assets/87750521/e49a8185-2baf-4ac7-ac31-a10aa08b97d2)
 
 ## 결과
-![image](https://github.com/DaKu00/price_prediction/assets/87750521/c76c06f9-4053-474a-b90e-bc2518a36415)
+![image](https://github.com/DaKu00/price_prediction/assets/87750521/6dfa0e28-5a51-4bfb-bfe2-6dd061daa9c8)
  - 실제 값에 근사하게 예측 값이 출력되는 것을 확인
 
 ## 특이점
